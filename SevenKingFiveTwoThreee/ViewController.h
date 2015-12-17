@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <GameKit/GameKit.h>
 
+@interface ViewController : UIViewController<GKSessionDelegate,GKPeerPickerControllerDelegate,UITextFieldDelegate>
+
+
+@property (nonatomic, strong) GKSession *session;
 @end

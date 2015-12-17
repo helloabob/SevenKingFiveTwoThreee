@@ -11,4 +11,36 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "Classes/CLog.h"
+#import "CommandTool.h"
+#import "Storage.h"
+#import "WBUIButton.h"
 #endif
+
+
+
+#define BTUReceiveDataNotificationNameKey   @"BTUReceiveDataNotificationNameKey"
+#define BTUReceiveDataKey                   @"BTUReceiveDataKey"
+#define BTUActionKey                        @"BTUActionKey"
+#define BTUParameterKey                     @"BTUParameterKey"
+
+/*all keys in Local Notification enum*/
+#define LocalNotificationNameKey            @"LocalNotificationNameKey"
+#define LocalServerPokerKey                 @"LocalServerPokerKey"
+#define LocalIWinKey                        @"LocalIWinKey"
+#define LocalBluetoothDidConnect            @"LocalBluetoothDidConnect"
+#define LocalUpdateTopBarKey                @"LocalUpdateTopBarKey"
+/*end*/
+
+
+/*all keys in BTUActionKey enum*/
+#define BTUGuestPrepareGameKey                   @"BTUGuestPrepareGameKey"
+#define BTUGuestStartGameKey                     @"BTUGuestStartGameKey"
+#define BTUGuestPullCardsKey                     @"BTUGuestPullCardsKey"
+#define BTUGuestPushCardsKey                     @"BTUGuestPushCardsKey"
+#define BTUItsYourTurnKey                        @"BTUItsYourTurnKey"
+#define BTUGiveUpKey                             @"BTUGiveUpKey"
+#define BTUYouLoseKey                            @"BTUYouLoseKey"
+#define BTUOutofPokerKey                         @"BTUOutofPokerKey"
+#define BTUUpdateTopBarKey                       @"BTUUpdateTopBarKey"
+/*end*/
